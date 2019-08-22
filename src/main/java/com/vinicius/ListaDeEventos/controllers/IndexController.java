@@ -1,10 +1,10 @@
-package com.vinicius.ListaDeEventos;
+package com.vinicius.ListaDeEventos.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class indexController {
+public class IndexController {
 
     @RequestMapping("/")
     public String index(){
